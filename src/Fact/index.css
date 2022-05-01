@@ -1,5 +1,6 @@
 .fact {
     color:black;
+    background-color: silver;
     overflow:scroll;
     padding:10px;
     margin:auto;
