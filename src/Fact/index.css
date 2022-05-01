@@ -1,0 +1,19 @@
+.fact {
+    color:black;
+    overflow:scroll;
+    padding:10px;
+    margin:auto;
+    margin-bottom:10px;
+    text-align:center;
+}
+
+.fact > h2 {
+    text-align:center;
+}
+
+.fact-paragraph {
+    text-align:center;
+    padding:10px;
+    margin:auto;
+    margin-bottom:10px;
+}

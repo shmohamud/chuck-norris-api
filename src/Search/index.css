@@ -1,0 +1,14 @@
+input {
+height:50px;
+font-size:1.5em;
+padding:10px;
+}
+
+.search-button {
+  height:50px;
+  font-size:1.5em;
+}
+
+h3 {
+  text-align: center;
+}
