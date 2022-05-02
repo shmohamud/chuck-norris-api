@@ -1,10 +1,10 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import Fact from "../Fact";
 import Search from "../Search";
-import style from "./index.css"
+import style from "./index.css";
 
 const Content = () => {
-    const [fact, setFact] = useState("");
+  const [fact, setFact] = useState("");
 
   useEffect(() => {
     const getFact = async () => {
@@ -13,7 +13,7 @@ const Content = () => {
       return data;
     };
     getFact().then(
-      (data) => console.log("Data: ", data) || setFact(data.value)
+      (data) => setFact(data.value)
     );
   }, []);
 

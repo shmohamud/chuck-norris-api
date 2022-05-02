@@ -6,6 +6,7 @@
     margin:auto;
     margin-bottom:10px;
     text-align:center;
+    min-width:400px;
 }
 
 .fact > h2 {
