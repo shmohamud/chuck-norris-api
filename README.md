@@ -21,7 +21,7 @@ React Hooks are used for state management and side effects.
 
 ## React Component Hiearchy
 
-`<App> <Header/> <Content/> <Footer/> </App>`
+`<App> <Header/> <Content> <Fact/> <Search> </Content> <Footer/> </App>`
 
 ## Available Scripts
 

@@ -1,6 +1,7 @@
 .fact {
     color:black;
     background-color: silver;
+    border:2px solid cornflowerblue;
     overflow:scroll;
     padding:10px;
     margin:auto;
@@ -9,13 +10,13 @@
     min-width:400px;
 }
 
-.fact > h2 {
-    text-align:center;
-}
-
 .fact-paragraph {
     text-align:center;
     padding:10px;
     margin:auto;
     margin-bottom:10px;
+}
+
+h3 {
+    font-size:30px;
 }
